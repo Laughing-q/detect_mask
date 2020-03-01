@@ -1,0 +1,4 @@
+classes= 2
+train=data/train/train.txt
+test=data/test/test.txt
+names=data/classes.names
