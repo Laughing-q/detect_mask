@@ -21,7 +21,7 @@ if __name__ == '__main__':
     parser.add_argument('--model_def', type=str, default='config/yolov3_mask.cfg',
                         help='path to model definition file')
     parser.add_argument('--data_config', type=str, default='config/mask.data', help='path to data config file')
-    parser.add_argument('--pretrained_weights', type=str, default='checkpoints/yolov3_ckpt_3.pth',
+    parser.add_argument('--pretrained_weights', type=str, default='weights/yolov3_weights',
                         help='if specified starts from checkpoint model')
     parser.add_argument('--n_cpu', type=int, default=8, help='number of cpu threads to use during batch generation')
     parser.add_argument('--img_size', type=int, default=416, help='size of each image dimension')
